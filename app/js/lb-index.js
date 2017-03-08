@@ -3,7 +3,7 @@ var banlis=$(".lb-banner-li");
 var a=0;
 var b;
 var c;
-var t=setInterval(move,2000);
+// var t=setInterval(move,2000);
 function move (){
     if(a==3){
         a=0;

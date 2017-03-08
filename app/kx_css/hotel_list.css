@@ -10,6 +10,7 @@
     padding-left: .25rem;
     padding-right: .25rem;
     box-sizing: border-box;
+    position: relative;
 }
 .kx_header >a:nth-child(1) span{
     background: url("../kx_images/kx_more.png") no-repeat;

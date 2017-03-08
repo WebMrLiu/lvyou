@@ -157,9 +157,9 @@
     letter-spacing:0.01rem;
 }
 .lb-banner .lb-banner-imgbox>span .lb-banner-wenzi .lb-banner-wenzi-line{
-    width: 100%;
+    width: 0.87rem;
     display: block;
-    margin: 0.15rem 0;
+    margin: 0.15rem auto;
     overflow: hidden;
 }
 .lb-banner .lb-banner-imgbox>span .lb-banner-wenzi .lb-banner-wenzi-line>span:nth-child(1){
@@ -167,7 +167,6 @@
     width:0.32rem;
     height: 0.02rem;
     background: #c5f1f1;
-    margin-left: 0.6rem;
     float: left;
 }
 .lb-banner .lb-banner-imgbox>span .lb-banner-wenzi .lb-banner-wenzi-line>span:nth-child(2){
@@ -271,7 +270,7 @@
     height: 100%;
 }
 .lb-huanqiu .lb-hqcon .lb-hq-title .lb-hq-title-zi{
-    width: 1.2rem;
+    width: auto;
     height: 100%;
     float: left;
     margin-left: 0.2rem;
@@ -439,7 +438,7 @@
     height: 100%;
 }
 .lb-youji .lb-yjcon .lb-yj-title .lb-yj-title-zi{
-    width: 1.2rem;
+    width: auto;
     height: 100%;
     float: left;
     margin-left: 0.2rem;
