@@ -133,12 +133,12 @@
     height: 100%;
 }
 .lb-banner .lb-banner-imgbox>span .lb-banner-wenzi{
-    width: 2.2rem;
+    width: 2.6rem;
     height: 1rem;
     position: absolute;
     left:50%;
     top:1.2rem;
-    margin-left: -1.1rem;
+    margin-left: -1.3rem;
 }
 .lb-banner .lb-banner-imgbox>span .lb-banner-wenzi p:nth-child(1){
     display: block;
