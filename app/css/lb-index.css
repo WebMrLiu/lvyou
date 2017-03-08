@@ -654,7 +654,7 @@
     background: #fff;
 }
 .lb-list .lb-list-con{
-    width: 100%;
+    width: auto;
     height: 100%;
     margin:0 0.32rem;
 }
