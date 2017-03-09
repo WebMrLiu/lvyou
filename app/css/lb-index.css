@@ -312,13 +312,23 @@
     width: 100%;
     height: auto;
 }
+.lb-huanqiu .lb-hqcon .lb-hq-con:after{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+}
 .lb-huanqiu .lb-hqcon .lb-hq-con>a{
     display: block;
     float: left;
     width: 2.1rem;
-    height: auto;
+    height: 3rem;
     margin-top: 0.2rem;
     position: relative;
+    border-radius: 0.2rem;
+    box-shadow: 0.06rem 0.1rem 0.1rem #e7e7e7;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 .lb-huanqiu .lb-hqcon .lb-hq-con>a .lb-hq-con-di{
     display: block;
@@ -332,12 +342,12 @@
 .lb-huanqiu .lb-hqcon .lb-hq-con>a .lb-hq-con-a{
     display: block;
     width: 2.1rem;
-    height: 2.84rem;
+    height: auto;
     border-radius: 0.2rem;
     background: #fff;
     position: absolute;
     left: 0;
-    top: 0.11rem;
+    top: -0.11rem;
     z-index: 2;
     overflow: hidden;
 }
@@ -364,6 +374,7 @@
     color:#000;
     height: 0.3rem;
     line-height: 0.3rem;
+    margin-top: 0.15rem;
 }
 .lb-huanqiu .lb-hqcon .lb-hq-con>a .lb-hq-con-a span{
     display: block;
@@ -373,7 +384,7 @@
     color:#ff3333;
     height: 0.3rem;
     line-height: 0.3rem;
-    margin: 0.1rem 0;
+    margin: 0.15rem 0;
 }
 .lb-huanqiu .lb-hqcon .lb-hq-con-ul{
     display: block;
